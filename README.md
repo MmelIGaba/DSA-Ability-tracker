@@ -1,19 +1,18 @@
 # DSA-Ability-tracker
-.....
 Here’s a **formal 2-stage development plan** optimized for speed and realism, so you can actually finish Phase 1 today and not get stuck in architecture thinking.
 
 ---
 
-# 🧠 PROJECT: AI-Driven DSA Practice Scheduler
+# PROJECT: AI-Driven DSA Practice Scheduler
 
 Goal:
 A system that tracks your DSA progress and uses AI to generate the next set of problems + schedule.
 
 ---
 
-# 🟢 PHASE 1 — LOCAL MVP (TODAY BUILD)
+# PHASE 1 — LOCAL MVP (TODAY BUILD)
 
-## 🎯 Objective
+## Objective
 
 Build a **fully working local system** that:
 
@@ -24,7 +23,7 @@ Build a **fully working local system** that:
 
 ---
 
-## 🧱 Stack
+## Stack
 
 * Python 3
 * JSON file (storage)
@@ -33,7 +32,7 @@ Build a **fully working local system** that:
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 dsa-coach/
@@ -46,7 +45,7 @@ dsa-coach/
 
 ---
 
-## 📌 1. Roadmap Definition (roadmap.py)
+## 1. Roadmap Definition (roadmap.py)
 
 Hardcode your 50 patterns:
 
@@ -62,7 +61,7 @@ ROADMAP = {
 
 ---
 
-## 📌 2. Progress Tracker (progress.json)
+## 2. Progress Tracker (progress.json)
 
 ```json id="r2"
 {
@@ -73,7 +72,7 @@ ROADMAP = {
 
 ---
 
-## 📌 3. AI Engine (ai_engine.py)
+## 3. AI Engine (ai_engine.py)
 
 Core idea: AI is only a decision maker.
 
@@ -101,7 +100,7 @@ Return structured output.
 
 ---
 
-## 📌 4. Main Controller (main.py)
+## 4. Main Controller (main.py)
 
 ```python id="r4"
 import json
@@ -132,7 +131,7 @@ if __name__ == "__main__":
 
 ---
 
-## 📌 PHASE 1 SUCCESS CRITERIA
+## PHASE 1 SUCCESS CRITERIA
 
 By end of today, you must have:
 
@@ -152,9 +151,9 @@ By end of today, you must have:
 
 ---
 
-# 🔵 PHASE 2 — CLOUD + AUTOMATION (NEXT STEP)
+# PHASE 2 — CLOUD + AUTOMATION (NEXT STEP)
 
-## 🎯 Objective
+## Objective
 
 Turn local tool into **automated AI coach system**
 
@@ -211,7 +210,7 @@ Send output (email / SNS)
 
 ---
 
-## 📌 Phase 2 Enhancements
+## Phase 2 Enhancements
 
 * auto-update completed problems
 * streak tracking
@@ -221,7 +220,7 @@ Send output (email / SNS)
 
 ---
 
-# 🧠 KEY DESIGN RULE (VERY IMPORTANT)
+# KEY DESIGN RULE (VERY IMPORTANT)
 
 > Phase 1 = intelligence
 > Phase 2 = automation
@@ -230,9 +229,8 @@ Never mix them early.
 
 ---
 
-# 🚀 TODAY EXECUTION PLAN (IMPORTANT)
+#  TODAY EXECUTION PLAN (IMPORTANT)
 
-If you want to actually finish Phase 1 today:
 
 ### Step 1 (30 min)
 
@@ -252,12 +250,3 @@ If you want to actually finish Phase 1 today:
 
 ---
 
-# If you want next step
-
-I can help you upgrade Phase 1 into:
-
-* real OpenAI API integration
-* smart scoring system (difficulty rating)
-* auto daily planner output format
-
-Just say 👍
